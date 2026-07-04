@@ -465,7 +465,7 @@
                         </div>
 
                         <div class="mt-10 pt-6 border-t border-white/20">
-                            <a href="#contact"
+                            <a href="/contact"
                                 class="bg-white text-[#EA222F] font-medium py-3 px-8 rounded-lg transition-all duration-300 hover:bg-gray-100 hover:shadow-lg inline-block">
                                 Request Off-Dock Services
                             </a>

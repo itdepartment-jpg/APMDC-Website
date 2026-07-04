@@ -645,16 +645,17 @@
                 <p class="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
                     Let APMDC handle your warehousing and distribution needs with our comprehensive, secure, and efficient services.
                 </p>
-                <div class="flex flex-col sm:flex-row justify-center gap-4">
-                    <button class="bg-white text-[#EA222F] font-medium py-3.5 px-8 rounded-lg transition-all duration-300 hover:bg-gray-100 hover:shadow-lg transform hover:-translate-y-1">
-                        Request Storage Solutions
-                    </button>
-                    <button class="bg-transparent border-2 border-white text-white font-medium py-3.5 px-8 rounded-lg transition-all duration-300 hover:bg-white/10 hover:shadow-sm">
-                        <span class="flex items-center justify-center">
-                            <i class="fas fa-phone-alt mr-2"></i> +234-1-4541278
-                        </span>
-                    </button>
+                <div class="flex flex-col sm:flex-row justify-center gap-6">
+                    <a href="tel:+2349087995953"
+                        class="bg-white text-[#EA222F] font-medium py-3.5 px-8 rounded-lg transition-all duration-300 hover:bg-gray-100 hover:shadow-lg transform hover:-translate-y-1">
+                        <i class="fas fa-phone-alt mr-2"></i> Request Storage Solutions
+                    </a>
+                    <a href="mailto:info@apmdcng.com"
+                        class="bg-transparent border-2 border-white text-white font-medium py-3.5 px-8 rounded-lg transition-all duration-300 hover:bg-white/10 hover:shadow-sm">
+                        <i class="fas fa-envelope mr-2"></i> +234-1-4541278
+                    </a>
                 </div>
+                
             </div>
         </div>
     </section>

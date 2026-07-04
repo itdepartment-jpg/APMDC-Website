@@ -121,7 +121,7 @@
                         class="bg-[#EA222F] text-white font-medium py-3 px-8 rounded-lg transition-all duration-300 hover:bg-[#d11a26] hover:shadow-lg inline-block">
                         Our Services
                     </a>
-                    <a href="#contact"
+                    <a href="/contact"
                         class="bg-transparent border-2 border-white text-white font-medium py-3 px-8 rounded-lg transition-all duration-300 hover:bg-white hover:text-gray-800 inline-block">
                         Get Quote
                     </a>
@@ -325,7 +325,7 @@
     </section>
 
     <!-- Services Include Section -->
-    <section class="py-20 agency-gradient text-white">
+    <section id="services" class="py-20 agency-gradient text-white">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16" data-aos="fade-up">
                 <span class="text-white font-semibold tracking-wider bg-white/20 px-4 py-1 rounded-full">SERVICES
@@ -551,11 +551,11 @@
                     services.
                 </p>
                 <div class="flex flex-col sm:flex-row justify-center gap-4">
-                    <a href="#contact"
+                    <a href="/contact"
                         class="bg-white text-[#EA222F] font-medium py-3 px-8 rounded-lg transition-all duration-300 hover:bg-gray-100 hover:shadow-lg inline-block">
                         Request Agency Services
                     </a>
-                    <a href="#contact"
+                    <a href="/contact"
                         class="bg-transparent border-2 border-white text-white font-medium py-3 px-8 rounded-lg transition-all duration-300 hover:bg-white hover:text-[#EA222F] inline-block">
                         Contact Our Agents
                     </a>

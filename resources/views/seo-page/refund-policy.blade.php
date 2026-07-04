@@ -296,7 +296,7 @@
                             To request a refund, send an email to:
                         </p>
                         <div class="bg-blue-50 p-4 rounded-lg mb-4">
-                            <p class="text-lg font-bold text-center text-[#EA222F]">kemi.invoicing@apmdcng.com</p>
+                            <p class="text-lg font-bold text-center text-[#EA222F]">Chinyere.onwukwe@apmdcng.com</p>
                         </div>
                         <p class="mb-4 font-medium">Include the following information:</p>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
@@ -496,7 +496,7 @@
                                 </p>
                                 <p class="flex items-center mb-2">
                                     <i class="fas fa-envelope mr-3"></i>
-                                    <span>kemi.invoicing@apmdcng.com</span>
+                                    <span>Chinyere.onwukwe@apmdcng.com</span>
                                 </p>
                                 <p class="flex items-center mb-2">
                                     <i class="fas fa-phone mr-3"></i>
@@ -504,14 +504,14 @@
                                 </p>
                                 <p class="flex items-center">
                                     <i class="fas fa-globe mr-3"></i>
-                                    <span>APMDCng.com</span>
+                                    <a href="https://apmdcng.com">apmdcng.com</a>
                                 </p>
                             </div>
                             <div class="bg-white/10 p-4 rounded-lg">
                                 <h3 class="font-bold text-lg mb-3">Quick Refund Request</h3>
                                 <p class="mb-3">Send all refund requests to:</p>
                                 <div class="bg-white/20 p-3 rounded text-center">
-                                    <p class="font-bold">kemi.invoicing@apmdcng.com</p>
+                                    <p class="font-bold">Chinyere.onwukwe@apmdcng.com</p>
                                 </div>
                                 <p class="text-sm mt-3">Include all required information for faster processing</p>
                             </div>

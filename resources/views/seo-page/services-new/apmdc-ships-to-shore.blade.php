@@ -400,7 +400,7 @@
                                 Our commitment to safety ensures reliable and secure ship-to-shore operations for all
                                 our clients.
                             </p>
-                            <a href="#contact"
+                            <a href="/contact"
                                 class="bg-[#EA222F] text-white font-medium py-3 px-8 rounded-lg transition-all duration-300 hover:bg-[#d11a26] hover:shadow-lg inline-block">
                                 Discuss Safety Requirements
                             </a>
@@ -479,7 +479,7 @@
                         reliability, efficiency, and safety in all ship-to-shore activities. Our proven track record
                         speaks to our commitment to excellence.
                     </p>
-                    <a href="#contact"
+                    <a href="/contact"
                         class="bg-white text-[#EA222F] font-medium py-3 px-8 rounded-lg transition-all duration-300 hover:bg-gray-100 hover:shadow-lg inline-block">
                         Start Your Marine Project
                     </a>

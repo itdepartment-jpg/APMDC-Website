@@ -124,7 +124,7 @@
                         class="bg-[#EA222F] text-white font-medium py-3 px-8 rounded-lg transition-all duration-300 hover:bg-[#d11a26] hover:shadow-lg inline-block">
                         Our Services
                     </a>
-                    <a href="#contact"
+                    <a href="/contact"
                         class="bg-transparent border-2 border-white text-white font-medium py-3 px-8 rounded-lg transition-all duration-300 hover:bg-white hover:text-gray-800 inline-block">
                         Get Quote
                     </a>
