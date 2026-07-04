@@ -1,0 +1,1 @@
+import{B as e}from"./editor-DQQ8m_-4.js";var t=e([]),n=()=>{let e=(e,n=`success`,r=5e3)=>{let i={message:e,type:n,duration:r};t.value.push(i),setTimeout(()=>{t.value=t.value.filter(e=>e!==i)},r)};return{toasts:t,showToast:e,showSuccess:t=>e(t,`success`),showError:t=>e(t,`error`),showWarning:t=>e(t,`warning`),showInfo:t=>e(t,`info`)}};export{n as t};

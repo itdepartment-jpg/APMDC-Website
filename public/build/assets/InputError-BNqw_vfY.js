@@ -1,0 +1,1 @@
+import{d as e}from"./inertia-C0d6ia9o.js";import{A as t,L as n,ct as r,h as i,v as a,w as o}from"./editor-DQQ8m_-4.js";var s={class:`text-sm text-red-600`},c=o({__name:`InputError`,props:{message:{}},setup(o){return(o,c)=>n((t(),a(`div`,null,[i(`p`,s,r(o.message),1)],512)),[[e,o.message]])}});export{c as t};
