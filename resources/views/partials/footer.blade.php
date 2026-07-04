@@ -15,22 +15,22 @@
 
                 <!-- Social Links -->
                 <div class="flex space-x-4">
-                    <a href="#"
+                    <a href="https://www.instagram.com/apmdcng" target="_blank" rel="noopener noreferrer"
                         class="text-gray-400 hover:text-white transition-colors duration-300 p-2 rounded-full hover:bg-white/10"
                         aria-label="Facebook">
                         <i class="fab fa-facebook-f w-4 h-4"></i>
                     </a>
-                    <a href="#"
+                    <a href="https://x.com/apmdcng" target="_blank" rel="noopener noreferrer"
                         class="text-gray-400 hover:text-white transition-colors duration-300 p-2 rounded-full hover:bg-white/10"
                         aria-label="Twitter">
                         <i class="fab fa-twitter w-4 h-4"></i>
                     </a>
-                    <a href="#"
+                    <a href="https://www.linkedin.com/company/apmdcng" target="_blank" rel="noopener noreferrer"
                         class="text-gray-400 hover:text-white transition-colors duration-300 p-2 rounded-full hover:bg-white/10"
                         aria-label="LinkedIn">
                         <i class="fab fa-linkedin-in w-4 h-4"></i>
                     </a>
-                    <a href="#"
+                    <a href="https://www.instagram.com/apmdcng" target="_blank" rel="noopener noreferrer"
                         class="text-gray-400 hover:text-white transition-colors duration-300 p-2 rounded-full hover:bg-white/10"
                         aria-label="Instagram">
                         <i class="fab fa-instagram w-4 h-4"></i>
