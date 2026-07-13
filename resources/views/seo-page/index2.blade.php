@@ -17,6 +17,51 @@
         body {
             font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
         }
+         .service-item {
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(234, 34, 47, 0.1), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .service-item:hover::before {
+            left: 100%;
+        }
+
+        .floating-card {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .floating-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+        }
+
+        .accent-border {
+            border-left: 4px solid #EA222F;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #303791 0%, #EA222F 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .section-pattern {
+            background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
     </style>
 </head>
 
@@ -295,8 +340,196 @@
 
     <!-- Services Section -->
 
+ <!-- Services Section - Redesigned -->
+    <section id="services" class="py-20 bg-gradient-to-br from-gray-50 to-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+                <span class="text-[#EA222F] font-semibold tracking-wider text-sm uppercase">INDUSTRIES WE SERVE</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mt-3 mb-6">
+                    Tailored Logistics Solutions <span class="gradient-text">for Every Industry</span>
+                </h2>
+                <p class="text-gray-600 text-lg">
+                    We provide reliable maritime and logistics solutions tailored to the unique needs of businesses across diverse industries.
+                </p>
+            </div>
 
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <a href="#" class="service-item block bg-white border border-gray-200 p-6 rounded-2xl floating-card transition-all duration-300"
+                    data-aos="fade-up"  data-aos-delay="150">
 
+                    <div class="flex items-start mb-4">
+                        <div class="bg-gradient-to-br from-[#303791] to-[#EA222F] text-white p-3 rounded-xl mr-4">
+                            <i class="fas fa-industry text-lg"></i>
+                        </div>
+
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-gray-800 hover:text-[#303791] transition-colors duration-300">
+                                Oil & Gas Logistics
+                            </h3>
+
+                            <p class="text-gray-600 mt-2 text-sm">
+                                Supporting Nigeria's oil and gas industry with dependable offshore logistics, marine vessel support, equipment transportation, cargo handling, and supply chain coordination. We ensure critical materials reach offshore platforms and operational sites safely and on schedule.
+                            </p>
+
+                            <div class="mt-5 inline-flex items-center font-semibold text-[#EA222F]">
+                                Learn More
+                                <i class="fas fa-arrow-right ml-2 transition-transform duration-300"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </a>
+
+                <!-- Service 2 -->
+                <a href="#" class="service-item block bg-white border border-gray-200 p-6 rounded-2xl floating-card transition-all duration-300"
+                    data-aos="fade-up"  data-aos-delay="150">
+
+                    <div class="flex items-start mb-4">
+                        <div class="bg-gradient-to-br from-[#303791] to-[#EA222F] text-white p-3 rounded-xl mr-4">
+                            <i class="fas fa-industry text-lg"></i>
+                        </div>
+
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-gray-800 hover:text-[#303791] transition-colors duration-300">
+                                Manufacturing & Industrial Logistics
+                            </h3>
+
+                            <p class="text-gray-600 mt-2 text-sm">
+                                Helping manufacturers optimize their supply chain through freight forwarding,
+                                cargo transportation, warehousing, customs clearance, and industrial logistics
+                                services, ensuring raw materials and finished goods move efficiently.
+                            </p>
+
+                            <div class="mt-5 inline-flex items-center font-semibold text-[#EA222F]">
+                                Learn More
+                                <i class="fas fa-arrow-right ml-2 transition-transform duration-300"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </a>
+
+                <!-- Service 3 -->
+                <a href="#" class="service-item block bg-white border border-gray-200 p-6 rounded-2xl floating-card transition-all duration-300"
+                    data-aos="fade-up"  data-aos-delay="150">
+
+                    <div class="flex items-start mb-4">
+                        <div class="bg-gradient-to-br from-[#303791] to-[#EA222F] text-white p-3 rounded-xl mr-4">
+                            <i class="fas fa-industry text-lg"></i>
+                        </div>
+
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-gray-800 hover:text-[#303791] transition-colors duration-300">
+                                Construction & Project Cargo
+                            </h3>
+
+                            <p class="text-gray-600 mt-2 text-sm">
+                                Providing specialized project cargo logistics, heavy equipment transportation, oversized cargo handling, and marine support services for construction and infrastructure projects throughout Nigeria and beyond.
+                            </p>
+
+                            <div class="mt-5 inline-flex items-center font-semibold text-[#EA222F]">
+                                Learn More
+                                <i class="fas fa-arrow-right ml-2 transition-transform duration-300"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </a>
+
+                <!-- Service 4 -->
+              <a href="#" class="service-item block bg-white border border-gray-200 p-6 rounded-2xl floating-card transition-all duration-300"
+                    data-aos="fade-up"  data-aos-delay="150">
+
+                    <div class="flex items-start mb-4">
+                        <div class="bg-gradient-to-br from-[#303791] to-[#EA222F] text-white p-3 rounded-xl mr-4">
+                            <i class="fas fa-industry text-lg"></i>
+                        </div>
+
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-gray-800 hover:text-[#303791] transition-colors duration-300">
+                                Agriculture & Agro-Export
+                            </h3>
+
+                            <p class="text-gray-600 mt-2 text-sm">
+                                Supporting agricultural businesses with reliable export logistics, cargo transportation, customs documentation, and supply chain management for agricultural produce, fertilizers, machinery, and farming equipment.
+                            </p>
+
+                            <div class="mt-5 inline-flex items-center font-semibold text-[#EA222F]">
+                                Learn More
+                                <i class="fas fa-arrow-right ml-2 transition-transform duration-300"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </a>
+
+                <!-- Service 5 -->
+             <a href="#" class="service-item block bg-white border border-gray-200 p-6 rounded-2xl floating-card transition-all duration-300"
+                    data-aos="fade-up"  data-aos-delay="150">
+
+                    <div class="flex items-start mb-4">
+                        <div class="bg-gradient-to-br from-[#303791] to-[#EA222F] text-white p-3 rounded-xl mr-4">
+                            <i class="fas fa-industry text-lg"></i>
+                        </div>
+
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-gray-800 hover:text-[#303791] transition-colors duration-300">
+                                Import & Export Businesses
+                            </h3>
+
+                            <p class="text-gray-600 mt-2 text-sm">
+                                Simplifying international trade through freight forwarding, customs brokerage, cargo documentation, port operations, and import/export logistics, helping businesses move goods across global markets with confidence.
+                            </p>
+
+                            <div class="mt-5 inline-flex items-center font-semibold text-[#EA222F]">
+                                Learn More
+                                <i class="fas fa-arrow-right ml-2 transition-transform duration-300"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </a>
+
+                 <!-- Service 6 -->
+              <a href="#" class="service-item block bg-white border border-gray-200 p-6 rounded-2xl floating-card transition-all duration-300"
+                    data-aos="fade-up"  data-aos-delay="150">
+
+                    <div class="flex items-start mb-4">
+                        <div class="bg-gradient-to-br from-[#303791] to-[#EA222F] text-white p-3 rounded-xl mr-4">
+                            <i class="fas fa-industry text-lg"></i>
+                        </div>
+
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-gray-800 hover:text-[#303791] transition-colors duration-300">
+                                Government & Public Sector
+                            </h3>
+
+                            <p class="text-gray-600 mt-2 text-sm">
+                                Delivering dependable marine logistics, cargo handling, procurement support, and transportation services for government agencies, public infrastructure projects, and institutional operations.
+                            </p>
+
+                            <div class="mt-5 inline-flex items-center font-semibold text-[#EA222F]">
+                                Learn More
+                                <i class="fas fa-arrow-right ml-2 transition-transform duration-300"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </a>
+
+               
+            </div>
+
+            {{-- <div class="mt-12 text-center" data-aos="fade-up">
+                <a href="#"
+                    class="inline-flex items-center text-[#EA222F] font-semibold hover:text-[#303791] transition-colors">
+                    <span>View All Services</span>
+                    <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div> --}}
+        </div>
+    </section>
 
 
     <section id="services" class="py-20 bg-white">
