@@ -550,95 +550,171 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Rapid & Compliant Port Agency -->
-                <div class="relative group overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500 h-96 flex flex-col"
-                    data-aos="fade-up" data-aos-delay="100">
-                    <!-- Image Section (Top) -->
-                    <div class="h-2/3 overflow-hidden">
-                        <img src="{{ asset('images/ap3.jpg') }}" alt="Rapid & Compliant Port Agency"
-                            class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110">
-                    </div>
 
-                    <!-- Text Section (Bottom) with White Background -->
-                    <div class="h-2/3 bg-white p-6 flex flex-col justify-between">
-                        <div>
-                            <h3 class="text-2xl font-bold mb-2 text-gray-800">Rapid & Compliant Port Agency</h3>
-                            <p class="text-gray-600">Guarantee fast vessel turnaround with comprehensive husbandry,
-                                documentation, crew logistics, and specialized customs clearance at all Nigerian ports.
-                            </p>
-                        </div>
-                        {{-- <a href="#" class="text-accent font-medium inline-flex items-center self-start mt-4">
-                            Learn More
-                            <svg class="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none"
-                                stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M14 5l7 7-7 7M3 12h18" />
-                            </svg>
-                        </a> --}}
-                    </div>
-                </div>
+    <!-- 1. Rapid & Compliant Port Agency -->
+    <div class="relative group overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500 h-[430px] flex flex-col"
+        data-aos="fade-up" data-aos-delay="100">
 
-                <!-- Dedicated Support for Offshore Assets -->
-                <div class="relative group overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500 h-96 flex flex-col"
-                    data-aos="fade-up" data-aos-delay="200">
-                    <!-- Image Section (Top) -->
-                    <div class="h-2/3 overflow-hidden">
-                        <img src="{{ asset('images/ap1.webp') }}" alt="Dedicated Support for Offshore Assets"
-                            class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110">
-                    </div>
+        <div class="h-1/2 overflow-hidden">
+            <img src="{{ asset('images/ap3.jpg') }}" alt="Rapid & Compliant Port Agency"
+                class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110">
+        </div>
 
-                    <!-- Text Section (Bottom) with White Background -->
-                    <div class="h-2/3 bg-white p-6 flex flex-col justify-between">
-                        <div>
-                            <h3 class="text-2xl font-bold mb-2 text-gray-800">Dedicated Support for Offshore Assets
-                            </h3>
-                            <p class="text-gray-600">Critical logistics and supply chain services for marine platforms,
-                                rigs, and deep-water projects, including rig moves, procurement, and crew rotations.</p>
-                        </div>
-                        {{-- <a href="#" class="text-accent font-medium inline-flex items-center self-start mt-4">
-                            Learn More
-                            <svg class="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none"
-                                stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M14 5l7 7-7 7M3 12h18" />
-                            </svg>
-                        </a> --}}
-                    </div>
-                </div>
-
-                <!-- Secure Storage and Inland Distribution -->
-                <div class="relative group overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500 h-96 flex flex-col"
-                    data-aos="fade-up" data-aos-delay="300">
-                    <!-- Image Section (Top) -->
-                    <div class="h-2/3 overflow-hidden">
-                        <img src="{{ asset('images/ap2.jpg') }}" alt="Secure Storage and Inland Distribution"
-                            class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110">
-                    </div>
-
-                    <!-- Text Section (Bottom) with White Background -->
-                    <div class="h-2/3 bg-white p-6 flex flex-col justify-between">
-                        <div>
-                            <h3 class="text-2xl font-bold mb-2 text-gray-800">Secure Storage and Inland Distribution
-                            </h3>
-                            <p class="text-gray-600">Leverage our bonded and general warehousing facilities in
-                                strategic port locations, offering efficient inventory management and reliable last-mile
-                                delivery across the region.</p>
-                        </div>
-                        {{-- <a href="#" class="text-accent font-medium inline-flex items-center self-start mt-4">
-                            Learn More
-                            <svg class="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none"
-                                stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M14 5l7 7-7 7M3 12h18" />
-                            </svg>
-                        </a> --}}
-                    </div>
-                </div>
+        <div class="h-1/2 bg-white p-6 flex flex-col justify-between">
+            <div>
+                <h3 class="text-xl font-bold mb-3">
+                    <a href="#"
+                        class="text-gray-800 hover:text-[#303791] transition-colors duration-300">
+                        Rapid & Compliant Port Agency
+                    </a>
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Ensure smooth port operations with our professional ship agency services,
+                    including vessel clearance, regulatory compliance, crew coordination,
+                    documentation, and operational support for efficient turnaround at Nigerian ports.
+                </p>
             </div>
+        </div>
+    </div>
+
+    <!-- 2. Dedicated Support for Offshore Assets -->
+    <div class="relative group overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500 h-[430px] flex flex-col"
+        data-aos="fade-up" data-aos-delay="150">
+
+        <div class="h-1/2 overflow-hidden">
+            <img src="{{ asset('images/ap1.webp') }}" alt="Dedicated Support for Offshore Assets"
+                class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110">
+        </div>
+
+        <div class="h-1/2 bg-white p-6 flex flex-col justify-between">
+            <div>
+                 <h3 class="text-xl font-bold mb-3">
+                    <a href="#"
+                        class="text-gray-800 hover:text-[#303791] transition-colors duration-300">
+                        Dedicated Support for Offshore Assets
+                    </a>
+                </h3>
+                
+
+                <p class="text-gray-600 text-sm">
+                    Reliable offshore logistics and marine support services including vessel
+                    coordination, equipment transportation, personnel logistics, and supply
+                    chain management for offshore operations.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. Customs Clearance & Inland Distribution -->
+    <div class="relative group overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500 h-[430px] flex flex-col"
+        data-aos="fade-up" data-aos-delay="200">
+
+        <div class="h-1/2 overflow-hidden">
+            <img src="{{ asset('images/ap2.jpg') }}" alt="Customs Clearance & Inland Distribution"
+                class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110">
+        </div>
+
+        <div class="h-1/2 bg-white p-6 flex flex-col justify-between">
+            <div>
+                <h3 class="text-xl font-bold mb-3">
+                    <a href="#"
+                        class="text-gray-800 hover:text-[#303791] transition-colors duration-300">
+                        Customs Clearance & Inland Distribution
+                    </a>
+                </h3>
+                
+                <p class="text-gray-600 text-sm">
+                    Simplify cargo movement with customs clearance, regulatory compliance,
+                    cargo transportation, and inland distribution services that keep your
+                    shipments moving without delays.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. Groupage Services -->
+    <div class="relative group overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500 h-[430px] flex flex-col"
+        data-aos="fade-up" data-aos-delay="250">
+
+        <div class="h-1/2 overflow-hidden">
+            <img src="{{ asset('images/ap2.jpg') }}" alt="Groupage Services"
+                class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110">
+        </div>
+
+        <div class="h-1/2 bg-white p-6 flex flex-col justify-between">
+            <div>
+                <h3 class="text-xl font-bold mb-3">
+                    <a href="#"
+                        class="text-gray-800 hover:text-[#303791] transition-colors duration-300">
+                        Groupage Services
+                    </a>
+                </h3>
+
+                <p class="text-gray-600 text-sm">
+                    Save on shipping costs with our groupage and consolidated cargo services,
+                    providing secure, reliable, and cost-effective freight solutions for
+                    importers and exporters.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 5. Ship-to-Shore Operations -->
+    <div class="relative group overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500 h-[430px] flex flex-col"
+        data-aos="fade-up" data-aos-delay="300">
+
+        <div class="h-1/2 overflow-hidden">
+            <img src="{{ asset('images/ap2.jpg') }}" alt="Ship-to-Shore Operations"
+                class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110">
+        </div>
+
+        <div class="h-1/2 bg-white p-6 flex flex-col justify-between">
+            <div>
+                <h3 class="text-xl font-bold mb-3">
+                    <a href="#"
+                        class="text-gray-800 hover:text-[#303791] transition-colors duration-300">
+                        Ship-to-Shore Operations
+                    </a>
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Safe and efficient transfer of cargo, equipment, and personnel between
+                    vessels and shore through coordinated marine logistics and operational
+                    excellence.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 6. Warehousing & Inventory Management -->
+    <div class="relative group overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500 h-[430px] flex flex-col"
+        data-aos="fade-up" data-aos-delay="350">
+
+        <div class="h-1/2 overflow-hidden">
+            <img src="{{ asset('images/ap2.jpg') }}" alt="Warehousing & Inventory Management"
+                class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110">
+        </div>
+
+        <div class="h-1/2 bg-white p-6 flex flex-col justify-between">
+            <div>
+                <h3 class="text-xl font-bold mb-3">
+                    <a href="#"
+                        class="text-gray-800 hover:text-[#303791] transition-colors duration-300">
+                        Warehousing & Inventory Management
+                    </a>
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Secure warehousing, inventory control, order fulfillment, and nationwide
+                    distribution services designed to improve supply chain efficiency and
+                    business performance.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+            
 
             <div class="text-center mt-16" data-aos="fade-up">
-
-
                 <a href="{{ route('about') }}" class="inline-block">
                     <button
                         class="bg-transparent border-2 border-accent text-accent font-medium py-3.5 px-8 rounded-lg transition-all duration-300 hover:bg-accent hover:text-white hover:shadow-lg">
@@ -842,17 +918,17 @@
         <div class="container mx-auto px-6">
             <div class="max-w-4xl mx-auto text-center" data-aos="fade-up">
                 <h2 class="text-3xl md:text-4xl font-bold mb-6">
-                    Ready to Optimize Your Operations in Nigeria?
+                    Need a Logistics Partner for Your Industry?
                 </h2>
                 <p class="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
-                    Stop managing multiple vendors and eliminate regulatory risk. Choose APMDC as your single,
-                    ISO-certified partner for seamless, end-to-end maritime and logistics support.
+                    Whether you operate in oil and gas, manufacturing, construction, agriculture, import and export, or the public sector, 
+                    APMDC delivers reliable shipping and logistics solutions designed to keep your business moving.
                 </p>
                 <div class="flex flex-col sm:flex-row justify-center gap-4">
                     <a href="{{ route('contact.show') }}" class="inline-block">
                         <button
                             class="bg-white text-accent font-medium py-3.5 px-8 rounded-lg transition-all duration-300 hover:bg-gray-100 hover:shadow-lg transform hover:-translate-y-1">
-                            Speak with Our Team
+                            Request a Quote
                         </button>
                     </a>
 
